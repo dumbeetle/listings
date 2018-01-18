@@ -1,0 +1,45 @@
+.mli{
+    border:solid white 5px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 10px;
+    min-height:100px;
+    color:white;
+}
+
+.mli:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+    cursor: pointer;
+}
+
+.linkRef{
+    text-decoration: none;
+
+}
+.linkRef:hover{
+    text-decoration: none;
+}
+
+.item-pic{
+    width:100%;
+    min-height:200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.col-md-5{
+    margin-top:25px;
+}
+
+#particles-js{
+    background-color: #1b1e21;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:-1;
+}
